@@ -39,7 +39,7 @@ export const placeOrder = (cartItems) => {
       
 
       return axios
-        .post("http://localhost:8080/api/order/place", orderData, {
+        .post("https://backend-food-production.up.railway.app/api/order/place", orderData, {
           headers: {
             Authorization: `Bearer ${getToken()}`, 
           },
