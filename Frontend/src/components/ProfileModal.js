@@ -46,7 +46,7 @@ const ProfileModal = ({ show, handleClose, user }) => {
             <Spinner animation="border" />
           ) : (
             <ul className="order-list">
-              {orders.map((order, index) => (
+              {orders?.map((order, index) => (
                 <li key={index} className="order-item">
                   <p>
                     <strong>Order ID:</strong> {order.id}
