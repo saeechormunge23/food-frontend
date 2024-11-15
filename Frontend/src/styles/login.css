@@ -1,0 +1,79 @@
+.custom-modal .modal-content {
+    background-color: rgb(243, 239, 233);
+    border-radius: 10px; 
+    padding: 20px;
+    margin-left: 80px;
+  }
+  
+  .custom-modal .modal-header {
+    color: black; 
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: 140px;
+  }
+  
+  .custom-modal .modal-header .close {
+    color: #fff;
+    opacity: 1;
+  }
+  
+  .custom-modal .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .custom-modal .modal-body {
+    font-size: 1rem;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .button {
+    background-color: #69310d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .button:hover{
+    background-color: rgb(208, 203, 203);
+    color: #69310d;
+  }
+  
+  .form-group{
+    margin-bottom: 10px;
+  }
+
+  .input{
+    margin-top: 10px;
+  }
+
+  .input-select {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px; 
+    font-size: 1em; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    background-color: #fff;
+    transition: border-color 0.3s ease; 
+  }
+  
+  .input-select:focus {
+    color: #69310d;
+    outline: none; 
+  }
+  
+  .input-select option {
+    padding: 10px; 
+  }
+  
+  .label{
+    display: flex;
+  }

@@ -1,0 +1,105 @@
+.admin-page {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  
+}
+
+.update-form{
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #69310d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td button {
+  margin-right: 5px;
+}
+
+.food-items-admin {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.food-item-admin {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button-admin {
+  background-color: #69310d;
+}
+
+.button-admin:hover {
+  background-color: rgb(208, 203, 203);
+  color: #69310d;
+}
+
+.button-admin-right {
+  background-color: #69310d;
+  margin-left: 10px;
+}
+
+.button-admin-right:hover {
+  background-color: rgb(208, 203, 203);
+  color: #69310d;
+}
+
+.food-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}

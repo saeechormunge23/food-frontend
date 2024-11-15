@@ -1,0 +1,124 @@
+/* ProfileModal.css
+
+/* Profile Modal */
+.profile-modal .profile-modal-header {
+    background-color: #69310d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-modal .profile-modal-body {
+    padding: 1.5rem;
+    color: #333;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.profile-modal .profile-modal-body p {
+    margin: 0.5rem 0;
+}
+
+.profile-modal .profile-modal-body strong {
+    font-weight: bold;
+    color: #69310d;
+}
+
+.profile-modal .profile-modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.profile-modal .profile-update-btn {
+    background-color: #69310d;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.profile-modal .profile-close-btn {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+
+.profile-modal .profile-update-btn:hover {
+    background-color:#69310d;
+}
+
+.profile-modal .profile-close-btn:hover {
+    background-color: #5a6268;
+}
+
+/* Update Profile Modal */
+.profile-update-modal .profile-update-modal-header {
+    background-color: #69310d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-update-modal .profile-update-modal-body {
+    padding: 1.5rem;
+}
+
+.profile-update-modal .profile-update-modal-body .form-label {
+    font-weight: bold;
+}
+
+.profile-update-modal .profile-update-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-update-modal .btn-primary {
+    background-color: #69310d;
+    border: none;
+}
+
+.profile-update-modal .btn-primary:hover {
+    background-color: #69310d;
+}
+
+.profile-update-modal .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.profile-update-modal .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.profile-modal .profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-modal .order-history h5 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-modal .order-list {
+  list-style-type: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.profile-modal .order-item {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 0;
+}
+
+.profile-modal .order-item p {
+  margin: 5px 0;
+}
+
+.profile-modal .order-item p strong {
+  color: #555;
+}
+
+.profile-modal .order-list .order-item:last-child {
+  border-bottom: none;
+} 
