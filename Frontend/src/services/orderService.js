@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/order";
+const API_URL = "https://backend-food-production.up.railway.app/api/order";
 
 const getToken = () => {
   const user = JSON.parse(localStorage.getItem("user"));
