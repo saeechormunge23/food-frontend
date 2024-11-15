@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/auth";
+const API_URL = "https://backend-food-production.up.railway.app/api/auth";
 
 const signup = (user) => axios.post(`${API_URL}/signup`, user);
 const login = (user) => axios.post(`${API_URL}/login`, user);
